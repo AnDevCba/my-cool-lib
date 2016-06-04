@@ -1,7 +1,7 @@
 # my-cool-lib
 A cool lib created for a cool medium post about creating cool libraries and this is it's very obvious README file.
 
-The Post:
+[The Medium Post](https://medium.com/@zurche/create-and-distribute-your-own-android-library-after-reading-this-post-c3187a2a0691#.90irf9n3t)
 
 The Status of the lib: 
 [![Release](https://jitpack.io/v/zurche/my-cool-lib.svg)](https://jitpack.io/#zurche/my-cool-lib/v0.1)
