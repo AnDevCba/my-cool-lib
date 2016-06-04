@@ -3,7 +3,8 @@ A cool lib created for a cool medium post about creating cool libraries and this
 
 The Post:
 
-The Status of the lib:
+The Status of the lib: 
+[![Release](https://jitpack.io/v/zurche/my-cool-lib.svg)](https://jitpack.io/#zurche/my-cool-lib/v0.1)
 
 How to use this lib in your project:
 ```groovy
@@ -28,7 +29,9 @@ Point buenosAiresObeliscoPoint = new Point((float) -34.6037389, (float) -58.3815
         
 Point nycStatueOfLibertyPoint = new Point((float) 40.6892494, (float) -74.0445004);
 
-float distanceBetweenPoints = LatLonDistanceCalculator.calculateDistance(buenosAiresObeliscoPoint, nycStatueOfLibertyPoint);
+float distanceBetweenPoints = LatLonDistanceCalculator.calculateDistance(
+    buenosAiresObeliscoPoint, 
+    nycStatueOfLibertyPoint);
 ```
 
 License
