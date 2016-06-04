@@ -34,6 +34,10 @@ float distanceBetweenPoints = LatLonDistanceCalculator.calculateDistance(
     nycStatueOfLibertyPoint);
 ```
 
+<p align="center">
+  <img src="https://github.com/zurche/my-cool-lib/blob/master/device-2016-06-03-131119.png" alt="Example"/>
+</p>
+
 License
 --------
 
