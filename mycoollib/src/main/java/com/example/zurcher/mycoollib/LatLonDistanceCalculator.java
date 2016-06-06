@@ -5,7 +5,7 @@ package com.example.zurcher.mycoollib;
  */
 public class LatLonDistanceCalculator {
 
-    private static final int EARTH_RADIUS_IN_METERS = 6371;
+    private static final int EARTH_RADIUS_IN_KILOMETERS = 6371;
 
     public static float calculateDistance(Point pointA,
                                           Point pointB) {
@@ -23,7 +23,7 @@ public class LatLonDistanceCalculator {
 
         double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
-        return (float) (EARTH_RADIUS_IN_METERS * c);
+        return (float) (EARTH_RADIUS_IN_KILOMETERS * c);
     }
 
 }
