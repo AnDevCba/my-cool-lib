@@ -7,7 +7,7 @@ The Status of the lib:
 [![Release](https://jitpack.io/v/zurche/my-cool-lib.svg)](https://jitpack.io/#zurche/my-cool-lib/v0.1)
 
 How to use this lib in your project:
-```groovy
+```gradle
 allprojects {
 	repositories {
 		...
@@ -17,7 +17,7 @@ allprojects {
 ```
 
 Add to your app module build.gradle
-```groovy
+```gradle
 dependencies {
         compile 'com.github.zurche:my-cool-lib:v0.1'
 }
